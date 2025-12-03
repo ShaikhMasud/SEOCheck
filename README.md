@@ -1,7 +1,7 @@
 
-# Crawl Metrics
+# SEOCheck
 
-Crawl Metrics is an SEO auditing tool built in Python. It crawls websites, checks various SEO metrics (such as meta tags, keyword density, headings, and images), and runs performance audits using Google's Lighthouse tool. This tool helps you analyze and optimize your website's SEO performance.
+SEOCheck is an SEO auditing tool built in Python. It crawls websites, checks various SEO metrics (such as meta tags, keyword density, headings, and images), and runs performance audits using Google's Lighthouse tool. This tool helps you analyze and optimize your website's SEO performance.
 
 ## Features
 - Check for meta tags like title and meta description
@@ -21,8 +21,8 @@ Crawl Metrics is an SEO auditing tool built in Python. It crawls websites, check
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yashaskhot/crawlmetrics.git
-cd crawlmetrics
+git clone https://github.com/ShaikhMasud/SEOCheck.git
+cd SEOCheck
 ```
 
 ### 2. Set up a Python Virtual Environment
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ### 4. Install Lighthouse Globally
 
-Crawl Metrics relies on Google's Lighthouse for performance and SEO audits. You need to install Lighthouse globally using `npm`.
+SEOCheck relies on Google's Lighthouse for performance and SEO audits. You need to install Lighthouse globally using `npm`.
 
 ```bash
 npm install -g lighthouse
@@ -86,7 +86,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contributing
 
-If you'd like to contribute to Crawl Metrics, feel free to open an issue or submit a pull request.
+If you'd like to contribute to SEOCheck, feel free to open an issue or submit a pull request.
 
 ## OpenSource Libraries Used
 - beautifulsoup4
